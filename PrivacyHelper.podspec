@@ -28,14 +28,15 @@ Pod::Spec.new do |s|
   
   s.subspec "Core" do |ss|
     ss.source_files  = "Sources/*/*.swift"
-#    ss.dependency "Moya"
-#    ss.dependency "HandyJSON"
   end
 
-#  s.subspec "RxSwift" do |ss|
-#    ss.source_files = "Sources/RxSwift/*.swift"
-#    ss.dependency "MoyaHandyJSON/Core"
-#    ss.dependency "RxSwift"
-#    ss.dependency "Moya/RxSwift"
-#  end
+  s.subspec "Base" do |ss|
+    ss.source_files = "Sources/Core/*.swift"
+    ss.dependency "PrivacyHelper/Core"
+  end
+
+  s.subspec "PhotoLibrary" do |ss|
+    ss.source_files = "Sources/PhotoLibrary/*.swift"
+    ss.dependency "PrivacyHelper/Base"
+  end
 end

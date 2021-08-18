@@ -8,69 +8,69 @@
 
 /* Begin PBXBuildFile section */
 		1B4AAC62505E4DE365F73321B7B000E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		1F8A30D826CCE8A50085E68B /* PrivacyHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8A30D726CCE8A50085E68B /* PrivacyHelper.swift */; };
-		1F8A30E026CCEECF0085E68B /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8A30DF26CCEECF0085E68B /* Camera.swift */; };
-		1F8A30E226CCEEE30085E68B /* PhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8A30E126CCEEE30085E68B /* PhotoLibrary.swift */; };
+		3F93E8BC04E91227C07F35B0175FDAF1 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2B9A74F6050AE0E7805B2F4CF29D16 /* Camera.swift */; };
 		4A9DD328546DC9F62FF4CF0B7C35531B /* Pods-PrivacyHelper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B34926C2CEA382BD126B7EAB894CBEE /* Pods-PrivacyHelper_Example-dummy.m */; };
-		74EE99AC6FB4EBA0098B7EF9DBCBB75B /* PrivacyHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEFE73A4C7DEE831D2A7F7FAB70AAE5A /* PrivacyHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C21717C36CD0B465E3AB96C846C571E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		8EB36D7902060DF467F2AC46E9BB956F /* PrivacyHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 857EB29FFC1E39A6BD1A08A271733D0A /* PrivacyHelper-dummy.m */; };
+		65CCB7EA53373F3B15FA12F2E179F76E /* PrivacyHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD308D39D2392CCD5AB3DD92001A0624 /* PrivacyHelper-dummy.m */; };
+		67BADEBF6E0BDD9A8647049A21A85D15 /* PhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C4B589DA4FA8FC545CF385D0A01237 /* PhotoLibrary.swift */; };
+		75EB07D340385120D24B9887AD2B61BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		98725B89CA839336347E6D626E495E81 /* Pods-PrivacyHelper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9489AC195FABE405618C100458C6F4B9 /* Pods-PrivacyHelper_Tests-dummy.m */; };
+		A1D349CD83B4D33B029F7804F15101AE /* PrivacyHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F7A0FBA28293F47081524DA4BB54D4 /* PrivacyHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A68FF431216F8FB50E4973D83048AE7A /* Pods-PrivacyHelper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EBAFC2DDA7FEE7B8764958F673F3CB7 /* Pods-PrivacyHelper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E7DF6045BCBE563836C68E68E8E0C43C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EA28B2EC1AAE7C221BB25BC4F2A839F1 /* PrivacyHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F10C1B165164C08E8C8D9A2B8CA278 /* PrivacyHelper.swift */; };
 		F3EDEE53FF28CB47E74F8022890C3356 /* Pods-PrivacyHelper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95F2DF797BCC27D1791130053834F478 /* Pods-PrivacyHelper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0E68DE855538DA5E8F47FB8749C83779 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 74502646E0CA1C33A0901EF4E801874B;
-			remoteInfo = "Pods-PrivacyHelper_Example";
-		};
-		3B8E32B96561F35FC947415FB80031A3 /* PBXContainerItemProxy */ = {
+		5A60CA8772CF9E5EEB5A89CAF75B4E3E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EB012330FA6E2B0E7F676AE1F82AEC10;
 			remoteInfo = PrivacyHelper;
 		};
+		793716117D6CD1F74A293FC6405E35EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74502646E0CA1C33A0901EF4E801874B;
+			remoteInfo = "Pods-PrivacyHelper_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0EBAFC2DDA7FEE7B8764958F673F3CB7 /* Pods-PrivacyHelper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PrivacyHelper_Example-umbrella.h"; sourceTree = "<group>"; };
-		13F78653E556F0918FE23D95A7D140AF /* PrivacyHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PrivacyHelper.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		1F8A30D726CCE8A50085E68B /* PrivacyHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrivacyHelper.swift; path = Sources/Core/PrivacyHelper.swift; sourceTree = "<group>"; };
-		1F8A30DF26CCEECF0085E68B /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Camera.swift; path = Sources/Camera/Camera.swift; sourceTree = "<group>"; };
-		1F8A30E126CCEEE30085E68B /* PhotoLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PhotoLibrary.swift; path = Sources/PhotoLibrary/PhotoLibrary.swift; sourceTree = "<group>"; };
+		205CB56F9DF1184A8EE5E0DCF0FFF748 /* PrivacyHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PrivacyHelper-prefix.pch"; sourceTree = "<group>"; };
 		23B499685EAB94E987CECFD4F5F396BE /* Pods-PrivacyHelper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PrivacyHelper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		250200465AF063AEF366548D369F6A4B /* Pods-PrivacyHelper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PrivacyHelper_Tests.modulemap"; sourceTree = "<group>"; };
+		37E3B84ACF949B64915B9B5F751D3D2E /* PrivacyHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PrivacyHelper.release.xcconfig; sourceTree = "<group>"; };
 		4B34926C2CEA382BD126B7EAB894CBEE /* Pods-PrivacyHelper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PrivacyHelper_Example-dummy.m"; sourceTree = "<group>"; };
-		60D59B9DF6219FF880E6088FC87820FF /* PrivacyHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PrivacyHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50CE2283DECEF85BC84F15C02732E5A7 /* PrivacyHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PrivacyHelper-Info.plist"; sourceTree = "<group>"; };
+		60D59B9DF6219FF880E6088FC87820FF /* PrivacyHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PrivacyHelper.framework; path = PrivacyHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		610E0390C146E9F77D74950ADB4FFD22 /* Pods-PrivacyHelper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PrivacyHelper_Example.modulemap"; sourceTree = "<group>"; };
-		6284A5AE0B307705A40C99E72DA4DF86 /* Pods_PrivacyHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrivacyHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6284A5AE0B307705A40C99E72DA4DF86 /* Pods_PrivacyHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PrivacyHelper_Example.framework; path = "Pods-PrivacyHelper_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66EDEB04295233E05D4B0BF36C365962 /* Pods-PrivacyHelper_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PrivacyHelper_Tests-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		77CC238A33A99F8E2E519BF1E6DBC22F /* Pods_PrivacyHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrivacyHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7DBF7757F8A54F3133CBA652B7CAC4FD /* PrivacyHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PrivacyHelper.debug.xcconfig; sourceTree = "<group>"; };
-		857EB29FFC1E39A6BD1A08A271733D0A /* PrivacyHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PrivacyHelper-dummy.m"; sourceTree = "<group>"; };
-		910B356AFE73941FFAF96C07E05C2344 /* PrivacyHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PrivacyHelper-prefix.pch"; sourceTree = "<group>"; };
+		77CC238A33A99F8E2E519BF1E6DBC22F /* Pods_PrivacyHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PrivacyHelper_Tests.framework; path = "Pods-PrivacyHelper_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9489AC195FABE405618C100458C6F4B9 /* Pods-PrivacyHelper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PrivacyHelper_Tests-dummy.m"; sourceTree = "<group>"; };
 		95F2DF797BCC27D1791130053834F478 /* Pods-PrivacyHelper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PrivacyHelper_Tests-umbrella.h"; sourceTree = "<group>"; };
+		98F7A0FBA28293F47081524DA4BB54D4 /* PrivacyHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PrivacyHelper-umbrella.h"; sourceTree = "<group>"; };
 		9AD750841C60C57CCC28AA8DAB4AA73E /* Pods-PrivacyHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrivacyHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FE79A853A78E2B0FC7431BAB5404EC2 /* Pods-PrivacyHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrivacyHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A4B6A29563DB0F1B70D417F7311D17E3 /* Pods-PrivacyHelper_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PrivacyHelper_Example-Info.plist"; sourceTree = "<group>"; };
-		B1F57F088D4641BAEDD5B4BBECBD3C6B /* PrivacyHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PrivacyHelper.modulemap; sourceTree = "<group>"; };
+		AB2B9A74F6050AE0E7805B2F4CF29D16 /* Camera.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
 		B6B4564117BCB66B2D6BB3E7E0BDAA27 /* Pods-PrivacyHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrivacyHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BEB2B06F41B422D60180BEC41EDA31B6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		C511F09E365EA5EDE6300AF6B792A4F5 /* PrivacyHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PrivacyHelper.release.xcconfig; sourceTree = "<group>"; };
+		B8F10C1B165164C08E8C8D9A2B8CA278 /* PrivacyHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PrivacyHelper.swift; sourceTree = "<group>"; };
+		BB989D0850B747582E604A803C864320 /* PrivacyHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PrivacyHelper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BBB219897C4449B4EADE49C9A5ADFF1F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BD308D39D2392CCD5AB3DD92001A0624 /* PrivacyHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PrivacyHelper-dummy.m"; sourceTree = "<group>"; };
 		C5C36339E41619E98192DC1B83F6AF91 /* Pods-PrivacyHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrivacyHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8DB290F80A534BC371590C32F3FDF0B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D979A6717C7D62E1192206479BF4E71D /* PrivacyHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PrivacyHelper.modulemap; sourceTree = "<group>"; };
 		DF82DC73B0700FEC45E1CBE4DA5CC323 /* Pods-PrivacyHelper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PrivacyHelper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E7990A0B3ECF7F5A565ACA2B7D657B99 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		ECF3AA07F2A66601DBB7CD794332FD2B /* PrivacyHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PrivacyHelper-Info.plist"; sourceTree = "<group>"; };
-		EEFE73A4C7DEE831D2A7F7FAB70AAE5A /* PrivacyHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PrivacyHelper-umbrella.h"; sourceTree = "<group>"; };
+		E1C4B589DA4FA8FC545CF385D0A01237 /* PhotoLibrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PhotoLibrary.swift; sourceTree = "<group>"; };
+		EF2D921DE436C82241CBCF08D94B346F /* PrivacyHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PrivacyHelper.debug.xcconfig; sourceTree = "<group>"; };
 		F0C1DA5ABB21B9AC432744623D8F1D42 /* Pods-PrivacyHelper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PrivacyHelper_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F7A9DD8C2D521E4DDD149241630DDBE6 /* Pods-PrivacyHelper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PrivacyHelper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		FA035BF28D3DFB362D1E36B7D02D2ED3 /* Pods-PrivacyHelper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PrivacyHelper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -93,39 +93,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		69A635D14A9AE54180136EDC9BC9D03C /* Frameworks */ = {
+		C0DFDC92B24BA073FAB74B8BF6C0978E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C21717C36CD0B465E3AB96C846C571E /* Foundation.framework in Frameworks */,
+				75EB07D340385120D24B9887AD2B61BD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1F8A30D426CCE7A70085E68B /* Core */ = {
+		09CFE376C9D59132491224B15BF7C386 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1F8A30D726CCE8A50085E68B /* PrivacyHelper.swift */,
+				D979A6717C7D62E1192206479BF4E71D /* PrivacyHelper.modulemap */,
+				BD308D39D2392CCD5AB3DD92001A0624 /* PrivacyHelper-dummy.m */,
+				50CE2283DECEF85BC84F15C02732E5A7 /* PrivacyHelper-Info.plist */,
+				205CB56F9DF1184A8EE5E0DCF0FFF748 /* PrivacyHelper-prefix.pch */,
+				98F7A0FBA28293F47081524DA4BB54D4 /* PrivacyHelper-umbrella.h */,
+				EF2D921DE436C82241CBCF08D94B346F /* PrivacyHelper.debug.xcconfig */,
+				37E3B84ACF949B64915B9B5F751D3D2E /* PrivacyHelper.release.xcconfig */,
 			);
-			name = Core;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PrivacyHelper";
 			sourceTree = "<group>";
 		};
-		1F8A30D926CCEE850085E68B /* Camera */ = {
+		287E0B174CD4F1EBD452B2BB7EF67E25 /* PrivacyHelper */ = {
 			isa = PBXGroup;
 			children = (
-				1F8A30DF26CCEECF0085E68B /* Camera.swift */,
+				EF773AA32320891B42B45BFE8662ADBA /* Core */,
+				F7F23F9F354E82C98D9054C935519EF1 /* Pod */,
+				09CFE376C9D59132491224B15BF7C386 /* Support Files */,
 			);
-			name = Camera;
-			sourceTree = "<group>";
-		};
-		1F8A30DA26CCEE8D0085E68B /* PhotoLibrary */ = {
-			isa = PBXGroup;
-			children = (
-				1F8A30E126CCEEE30085E68B /* PhotoLibrary.swift */,
-			);
-			name = PhotoLibrary;
+			name = PrivacyHelper;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		385A7F876E93B92CC7F7782618528F74 /* Pods-PrivacyHelper_Tests */ = {
@@ -142,16 +144,6 @@
 			);
 			name = "Pods-PrivacyHelper_Tests";
 			path = "Target Support Files/Pods-PrivacyHelper_Tests";
-			sourceTree = "<group>";
-		};
-		4E9FDD00B053FDB728C3B321C9EF36AE /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				BEB2B06F41B422D60180BEC41EDA31B6 /* LICENSE */,
-				13F78653E556F0918FE23D95A7D140AF /* PrivacyHelper.podspec */,
-				E7990A0B3ECF7F5A565ACA2B7D657B99 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		55234516FF8B01493353907395403F04 /* Products */ = {
@@ -175,22 +167,27 @@
 		57DAFB4F650C540783FB96114C390938 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6DE662F74281932F9C3445E2D96D97B4 /* PrivacyHelper */,
+				287E0B174CD4F1EBD452B2BB7EF67E25 /* PrivacyHelper */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		6DE662F74281932F9C3445E2D96D97B4 /* PrivacyHelper */ = {
+		8192BB84033D3E28E9F15D272CD000AE /* PhotoLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				1F8A30DA26CCEE8D0085E68B /* PhotoLibrary */,
-				1F8A30D926CCEE850085E68B /* Camera */,
-				1F8A30D426CCE7A70085E68B /* Core */,
-				4E9FDD00B053FDB728C3B321C9EF36AE /* Pod */,
-				E2F79D910195776F2F93F572B63136BB /* Support Files */,
+				E1C4B589DA4FA8FC545CF385D0A01237 /* PhotoLibrary.swift */,
 			);
-			name = PrivacyHelper;
-			path = ../..;
+			name = PhotoLibrary;
+			path = Sources/PhotoLibrary;
+			sourceTree = "<group>";
+		};
+		9ABAEA2D6758BEFC380750F8B62E2ADB /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				AB2B9A74F6050AE0E7805B2F4CF29D16 /* Camera.swift */,
+			);
+			name = Camera;
+			path = Sources/Camera;
 			sourceTree = "<group>";
 		};
 		B9A76963B6DD9FA446B6A9069AF2ED96 /* Targets Support Files */ = {
@@ -221,19 +218,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E2F79D910195776F2F93F572B63136BB /* Support Files */ = {
+		E0FB8861D7FBAEEC1FFE10A30CB6A474 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				B1F57F088D4641BAEDD5B4BBECBD3C6B /* PrivacyHelper.modulemap */,
-				857EB29FFC1E39A6BD1A08A271733D0A /* PrivacyHelper-dummy.m */,
-				ECF3AA07F2A66601DBB7CD794332FD2B /* PrivacyHelper-Info.plist */,
-				910B356AFE73941FFAF96C07E05C2344 /* PrivacyHelper-prefix.pch */,
-				EEFE73A4C7DEE831D2A7F7FAB70AAE5A /* PrivacyHelper-umbrella.h */,
-				7DBF7757F8A54F3133CBA652B7CAC4FD /* PrivacyHelper.debug.xcconfig */,
-				C511F09E365EA5EDE6300AF6B792A4F5 /* PrivacyHelper.release.xcconfig */,
+				B8F10C1B165164C08E8C8D9A2B8CA278 /* PrivacyHelper.swift */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PrivacyHelper";
+			name = Core;
+			path = Sources/Core;
 			sourceTree = "<group>";
 		};
 		E5390C827F05BE2D73663FAFFE804FE4 /* Pods-PrivacyHelper_Example */ = {
@@ -253,6 +244,26 @@
 			path = "Target Support Files/Pods-PrivacyHelper_Example";
 			sourceTree = "<group>";
 		};
+		EF773AA32320891B42B45BFE8662ADBA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9ABAEA2D6758BEFC380750F8B62E2ADB /* Camera */,
+				E0FB8861D7FBAEEC1FFE10A30CB6A474 /* Core */,
+				8192BB84033D3E28E9F15D272CD000AE /* PhotoLibrary */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		F7F23F9F354E82C98D9054C935519EF1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BBB219897C4449B4EADE49C9A5ADFF1F /* LICENSE */,
+				BB989D0850B747582E604A803C864320 /* PrivacyHelper.podspec */,
+				D8DB290F80A534BC371590C32F3FDF0B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -264,11 +275,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0FD0AD389FE122EE18EF9279A25891F /* Headers */ = {
+		AC4FC98942E49BA3AC854C21D2259E0F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74EE99AC6FB4EBA0098B7EF9DBCBB75B /* PrivacyHelper-umbrella.h in Headers */,
+				A1D349CD83B4D33B029F7804F15101AE /* PrivacyHelper-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +306,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				2B60C82E27AD4D3283C9DA54A93C4994 /* PBXTargetDependency */,
+				655A5B5C64DC0BBC7C31F5345E07D7EA /* PBXTargetDependency */,
 			);
 			name = "Pods-PrivacyHelper_Tests";
 			productName = "Pods-PrivacyHelper_Tests";
@@ -314,7 +325,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				6AB4A4843D02D67A22402D1F6064258A /* PBXTargetDependency */,
+				30146E8D7A2180B6743E03FD2360D1E0 /* PBXTargetDependency */,
 			);
 			name = "Pods-PrivacyHelper_Example";
 			productName = "Pods-PrivacyHelper_Example";
@@ -323,12 +334,12 @@
 		};
 		EB012330FA6E2B0E7F676AE1F82AEC10 /* PrivacyHelper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0311E0B70C868EDA9989EF1C110CA70F /* Build configuration list for PBXNativeTarget "PrivacyHelper" */;
+			buildConfigurationList = B6AF2A664BA62910F828C8E9AA0EC699 /* Build configuration list for PBXNativeTarget "PrivacyHelper" */;
 			buildPhases = (
-				C0FD0AD389FE122EE18EF9279A25891F /* Headers */,
-				791406284537B399D54A049D5806AAD7 /* Sources */,
-				69A635D14A9AE54180136EDC9BC9D03C /* Frameworks */,
-				4A2834082476B65410329C83ED27D01F /* Resources */,
+				AC4FC98942E49BA3AC854C21D2259E0F /* Headers */,
+				FE4B1EF44448F155D7411EF31BA55093 /* Sources */,
+				C0DFDC92B24BA073FAB74B8BF6C0978E /* Frameworks */,
+				8143D2D11FDCEAA23B503CAC190E8F8A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -347,11 +358,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					74502646E0CA1C33A0901EF4E801874B = {
-						LastSwiftMigration = 1250;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -374,7 +380,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4A2834082476B65410329C83ED27D01F /* Resources */ = {
+		8143D2D11FDCEAA23B503CAC190E8F8A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -402,18 +408,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F8A30E226CCEEE30085E68B /* PhotoLibrary.swift in Sources */,
-				1F8A30E026CCEECF0085E68B /* Camera.swift in Sources */,
-				1F8A30D826CCE8A50085E68B /* PrivacyHelper.swift in Sources */,
 				4A9DD328546DC9F62FF4CF0B7C35531B /* Pods-PrivacyHelper_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		791406284537B399D54A049D5806AAD7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8EB36D7902060DF467F2AC46E9BB956F /* PrivacyHelper-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,20 +420,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FE4B1EF44448F155D7411EF31BA55093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F93E8BC04E91227C07F35B0175FDAF1 /* Camera.swift in Sources */,
+				67BADEBF6E0BDD9A8647049A21A85D15 /* PhotoLibrary.swift in Sources */,
+				65CCB7EA53373F3B15FA12F2E179F76E /* PrivacyHelper-dummy.m in Sources */,
+				EA28B2EC1AAE7C221BB25BC4F2A839F1 /* PrivacyHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2B60C82E27AD4D3283C9DA54A93C4994 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-PrivacyHelper_Example";
-			target = 74502646E0CA1C33A0901EF4E801874B /* Pods-PrivacyHelper_Example */;
-			targetProxy = 0E68DE855538DA5E8F47FB8749C83779 /* PBXContainerItemProxy */;
-		};
-		6AB4A4843D02D67A22402D1F6064258A /* PBXTargetDependency */ = {
+		30146E8D7A2180B6743E03FD2360D1E0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PrivacyHelper;
 			target = EB012330FA6E2B0E7F676AE1F82AEC10 /* PrivacyHelper */;
-			targetProxy = 3B8E32B96561F35FC947415FB80031A3 /* PBXContainerItemProxy */;
+			targetProxy = 5A60CA8772CF9E5EEB5A89CAF75B4E3E /* PBXContainerItemProxy */;
+		};
+		655A5B5C64DC0BBC7C31F5345E07D7EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PrivacyHelper_Example";
+			target = 74502646E0CA1C33A0901EF4E801874B /* Pods-PrivacyHelper_Example */;
+			targetProxy = 793716117D6CD1F74A293FC6405E35EE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -509,9 +515,9 @@
 			};
 			name = Debug;
 		};
-		4A814014E0F800E7D0BB9F4CC5B1D3D5 /* Release */ = {
+		5C4AC103E892F15A5064BD6427FC6756 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C511F09E365EA5EDE6300AF6B792A4F5 /* PrivacyHelper.release.xcconfig */;
+			baseConfigurationReference = 37E3B84ACF949B64915B9B5F751D3D2E /* PrivacyHelper.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -532,13 +538,43 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		889128974C767CDAE640563719149105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF2D921DE436C82241CBCF08D94B346F /* PrivacyHelper.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PrivacyHelper/PrivacyHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PrivacyHelper/PrivacyHelper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PrivacyHelper/PrivacyHelper.modulemap";
+				PRODUCT_MODULE_NAME = PrivacyHelper;
+				PRODUCT_NAME = PrivacyHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		88FAC0A4EA080FE9BF66D915DE359F25 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -577,7 +613,6 @@
 			baseConfigurationReference = 9FE79A853A78E2B0FC7431BAB5404EC2 /* Pods-PrivacyHelper_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -599,7 +634,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -662,48 +696,18 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		D29E16C1768D0760A708BCF2990FEA85 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DBF7757F8A54F3133CBA652B7CAC4FD /* PrivacyHelper.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PrivacyHelper/PrivacyHelper-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PrivacyHelper/PrivacyHelper-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PrivacyHelper/PrivacyHelper.modulemap";
-				PRODUCT_MODULE_NAME = PrivacyHelper;
-				PRODUCT_NAME = PrivacyHelper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		DD01BBF45FD0E0E80C113617CD35CC1B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B6B4564117BCB66B2D6BB3E7E0BDAA27 /* Pods-PrivacyHelper_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -725,8 +729,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -769,15 +771,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0311E0B70C868EDA9989EF1C110CA70F /* Build configuration list for PBXNativeTarget "PrivacyHelper" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D29E16C1768D0760A708BCF2990FEA85 /* Debug */,
-				4A814014E0F800E7D0BB9F4CC5B1D3D5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2315B15412CCA1071673E6E0C6EF342F /* Build configuration list for PBXNativeTarget "Pods-PrivacyHelper_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -801,6 +794,15 @@
 			buildConfigurations = (
 				88FAC0A4EA080FE9BF66D915DE359F25 /* Debug */,
 				EB2A5B6D7BE4E37BCC74ADE6D97318BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6AF2A664BA62910F828C8E9AA0EC699 /* Build configuration list for PBXNativeTarget "PrivacyHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889128974C767CDAE640563719149105 /* Debug */,
+				5C4AC103E892F15A5064BD6427FC6756 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

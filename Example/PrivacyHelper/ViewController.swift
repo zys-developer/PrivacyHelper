@@ -7,12 +7,19 @@
 //
 
 import UIKit
+import PrivacyHelper
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        PrivacyHelper.photoLibrary {
+            print("允许访问")
+        } unauthorized: {
+            print("拒绝访问")
+        }
+
     }
 
     override func didReceiveMemoryWarning() {

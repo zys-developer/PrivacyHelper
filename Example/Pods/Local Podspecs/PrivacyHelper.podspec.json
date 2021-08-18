@@ -1,8 +1,8 @@
 {
   "name": "PrivacyHelper",
   "version": "0.1.0",
-  "summary": "A short description of PrivacyHelper.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "一行代码搞定隐私权限",
+  "description": "一行代码搞定隐私权限, 使用时只需根据不同的状态做出相应处理即可",
   "homepage": "https://github.com/zys-developer/PrivacyHelper",
   "license": {
     "type": "MIT",
@@ -18,5 +18,31 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "PrivacyHelper/Classes/**/*"
+  "default_subspecs": "Core",
+  "swift_versions": "5.0",
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "Sources/*/*.swift"
+    },
+    {
+      "name": "Base",
+      "source_files": "Sources/Core/*.swift",
+      "dependencies": {
+        "PrivacyHelper/Core": [
+
+        ]
+      }
+    },
+    {
+      "name": "PhotoLibrary",
+      "source_files": "Sources/PhotoLibrary/*.swift",
+      "dependencies": {
+        "PrivacyHelper/Base": [
+
+        ]
+      }
+    }
+  ],
+  "swift_version": "5.0"
 }
