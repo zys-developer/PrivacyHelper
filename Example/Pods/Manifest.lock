@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PrivacyHelper: f864c16bb93c9cd7b2f146e41ba28b2d05dffe77
+  PrivacyHelper: cb4e32d831127ece60eae2e5055be368aa76290d
 
 PODFILE CHECKSUM: d5c35ed37f8c2e2ec61c4758d4a1c764eee84d4a
 

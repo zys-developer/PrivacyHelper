@@ -16,8 +16,10 @@ class ViewController: UIViewController {
         
         PrivacyHelper.photoLibrary {
             print("允许访问")
+            // 读取相册
         } unauthorized: {
             print("拒绝访问")
+            // 弹窗提示
         }
 
     }

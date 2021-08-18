@@ -17,7 +17,12 @@ PrivacyHelper is available through [CocoaPods](https://cocoapods.org). To instal
 it, simply add the following line to your Podfile:
 
 ```ruby
+# 导入所有隐私权限
 pod 'PrivacyHelper'
+
+# 按需导入某一个隐私权限
+pod 'PrivacyHelper/PhotoLibrary'
+pod 'PrivacyHelper/Camera'
 ```
 
 ## Author

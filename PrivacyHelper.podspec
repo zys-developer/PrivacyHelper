@@ -39,4 +39,10 @@ Pod::Spec.new do |s|
     ss.source_files = "Sources/PhotoLibrary/*.swift"
     ss.dependency "PrivacyHelper/Base"
   end
+
+  s.subspec "Camera" do |ss|
+    ss.source_files = "Sources/Camera/*.swift"
+    ss.dependency "PrivacyHelper/Base"
+  end
+  
 end

@@ -42,6 +42,15 @@
 
         ]
       }
+    },
+    {
+      "name": "Camera",
+      "source_files": "Sources/Camera/*.swift",
+      "dependencies": {
+        "PrivacyHelper/Base": [
+
+        ]
+      }
     }
   ],
   "swift_version": "5.0"

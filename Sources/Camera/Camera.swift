@@ -9,7 +9,7 @@ import Foundation
 import AVFoundation
 
 extension PrivacyHelper {
-    func camera(_ authorized: @escaping () -> Void, unauthorized: @escaping () -> Void) {
+    @objc public class func camera(_ authorized: @escaping () -> Void, unauthorized: @escaping () -> Void) {
         let authStatus = AVCaptureDevice.authorizationStatus(for: .video)
         switch authStatus {
         case .notDetermined:
