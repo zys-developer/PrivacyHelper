@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1B4AAC62505E4DE365F73321B7B000E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		1F8A30D826CCE8A50085E68B /* PrivacyHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8A30D726CCE8A50085E68B /* PrivacyHelper.swift */; };
+		1F8A30E026CCEECF0085E68B /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8A30DF26CCEECF0085E68B /* Camera.swift */; };
+		1F8A30E226CCEEE30085E68B /* PhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8A30E126CCEEE30085E68B /* PhotoLibrary.swift */; };
 		4A9DD328546DC9F62FF4CF0B7C35531B /* Pods-PrivacyHelper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B34926C2CEA382BD126B7EAB894CBEE /* Pods-PrivacyHelper_Example-dummy.m */; };
 		74EE99AC6FB4EBA0098B7EF9DBCBB75B /* PrivacyHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEFE73A4C7DEE831D2A7F7FAB70AAE5A /* PrivacyHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C21717C36CD0B465E3AB96C846C571E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -40,6 +42,8 @@
 		0EBAFC2DDA7FEE7B8764958F673F3CB7 /* Pods-PrivacyHelper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PrivacyHelper_Example-umbrella.h"; sourceTree = "<group>"; };
 		13F78653E556F0918FE23D95A7D140AF /* PrivacyHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PrivacyHelper.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		1F8A30D726CCE8A50085E68B /* PrivacyHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrivacyHelper.swift; path = Sources/Core/PrivacyHelper.swift; sourceTree = "<group>"; };
+		1F8A30DF26CCEECF0085E68B /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Camera.swift; path = Sources/Camera/Camera.swift; sourceTree = "<group>"; };
+		1F8A30E126CCEEE30085E68B /* PhotoLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PhotoLibrary.swift; path = Sources/PhotoLibrary/PhotoLibrary.swift; sourceTree = "<group>"; };
 		23B499685EAB94E987CECFD4F5F396BE /* Pods-PrivacyHelper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PrivacyHelper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		250200465AF063AEF366548D369F6A4B /* Pods-PrivacyHelper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PrivacyHelper_Tests.modulemap"; sourceTree = "<group>"; };
 		4B34926C2CEA382BD126B7EAB894CBEE /* Pods-PrivacyHelper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PrivacyHelper_Example-dummy.m"; sourceTree = "<group>"; };
@@ -108,6 +112,22 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		1F8A30D926CCEE850085E68B /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				1F8A30DF26CCEECF0085E68B /* Camera.swift */,
+			);
+			name = Camera;
+			sourceTree = "<group>";
+		};
+		1F8A30DA26CCEE8D0085E68B /* PhotoLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				1F8A30E126CCEEE30085E68B /* PhotoLibrary.swift */,
+			);
+			name = PhotoLibrary;
+			sourceTree = "<group>";
+		};
 		385A7F876E93B92CC7F7782618528F74 /* Pods-PrivacyHelper_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +183,8 @@
 		6DE662F74281932F9C3445E2D96D97B4 /* PrivacyHelper */ = {
 			isa = PBXGroup;
 			children = (
+				1F8A30DA26CCEE8D0085E68B /* PhotoLibrary */,
+				1F8A30D926CCEE850085E68B /* Camera */,
 				1F8A30D426CCE7A70085E68B /* Core */,
 				4E9FDD00B053FDB728C3B321C9EF36AE /* Pod */,
 				E2F79D910195776F2F93F572B63136BB /* Support Files */,
@@ -380,6 +402,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F8A30E226CCEEE30085E68B /* PhotoLibrary.swift in Sources */,
+				1F8A30E026CCEECF0085E68B /* Camera.swift in Sources */,
 				1F8A30D826CCE8A50085E68B /* PrivacyHelper.swift in Sources */,
 				4A9DD328546DC9F62FF4CF0B7C35531B /* Pods-PrivacyHelper_Example-dummy.m in Sources */,
 			);
