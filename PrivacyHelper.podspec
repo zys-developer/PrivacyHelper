@@ -9,16 +9,10 @@
 Pod::Spec.new do |s|
   s.name             = 'PrivacyHelper'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of PrivacyHelper.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = '一行代码搞定隐私权限'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  一行代码搞定隐私权限, 使用时只需根据不同的状态做出相应处理即可
                        DESC
 
   s.homepage         = 'https://github.com/zys-developer/PrivacyHelper'
@@ -29,14 +23,19 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
-  s.source_files = 'PrivacyHelper/Classes/**/*'
+  s.default_subspec = "Core"
+  s.swift_version = '5.0'
   
-  # s.resource_bundles = {
-  #   'PrivacyHelper' => ['PrivacyHelper/Assets/*.png']
-  # }
+  s.subspec "Core" do |ss|
+    ss.source_files  = "Sources/*/*.swift"
+#    ss.dependency "Moya"
+#    ss.dependency "HandyJSON"
+  end
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+#  s.subspec "RxSwift" do |ss|
+#    ss.source_files = "Sources/RxSwift/*.swift"
+#    ss.dependency "MoyaHandyJSON/Core"
+#    ss.dependency "RxSwift"
+#    ss.dependency "Moya/RxSwift"
+#  end
 end

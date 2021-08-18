@@ -1,0 +1,6 @@
+framework module PrivacyHelper {
+  umbrella header "PrivacyHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}

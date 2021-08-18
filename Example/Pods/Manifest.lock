@@ -1,0 +1,16 @@
+PODS:
+  - PrivacyHelper (0.1.0)
+
+DEPENDENCIES:
+  - PrivacyHelper (from `../`)
+
+EXTERNAL SOURCES:
+  PrivacyHelper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PrivacyHelper: 63a72e79824fdfe80e29e99eee857719ba279d82
+
+PODFILE CHECKSUM: d5c35ed37f8c2e2ec61c4758d4a1c764eee84d4a
+
+COCOAPODS: 1.10.1
