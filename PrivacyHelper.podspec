@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PrivacyHelper'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '一行代码搞定隐私权限'
 
   s.description      = <<-DESC
