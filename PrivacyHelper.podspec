@@ -30,19 +30,12 @@ Pod::Spec.new do |s|
     ss.source_files  = "Sources/*/*.swift"
   end
 
-  s.subspec "Base" do |ss|
-    ss.source_files = "Sources/Core/*.swift"
-    ss.dependency "PrivacyHelper/Core"
-  end
-
   s.subspec "PhotoLibrary" do |ss|
-    ss.source_files = "Sources/PhotoLibrary/*.swift"
-    ss.dependency "PrivacyHelper/Base"
+    ss.source_files = "Sources/PhotoLibrary/*.swift", "Sources/Core/*.swift"
   end
 
   s.subspec "Camera" do |ss|
-    ss.source_files = "Sources/Camera/*.swift"
-    ss.dependency "PrivacyHelper/Base"
+    ss.source_files = "Sources/Camera/*.swift", "Sources/Core/*.swift"
   end
   
 end

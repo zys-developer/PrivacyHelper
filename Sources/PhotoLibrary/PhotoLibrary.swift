@@ -9,7 +9,7 @@ import Foundation
 import Photos
 
 extension PrivacyHelper {
-    @objc public class func photoLibrary(_ authorized: @escaping () -> Void, unauthorized: @escaping () -> Void) {
+    @objc open class func photoLibrary(_ authorized: @escaping () -> Void, unauthorized: @escaping () -> Void) {
         let authorizationStatus = PHPhotoLibrary.authorizationStatus()
         switch authorizationStatus {
         case .notDetermined:

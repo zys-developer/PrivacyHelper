@@ -1,7 +1,7 @@
 PODS:
-  - PrivacyHelper (0.1.0):
-    - PrivacyHelper/Core (= 0.1.0)
-  - PrivacyHelper/Core (0.1.0)
+  - PrivacyHelper (0.1.1):
+    - PrivacyHelper/Core (= 0.1.1)
+  - PrivacyHelper/Core (0.1.1)
 
 DEPENDENCIES:
   - PrivacyHelper (from `../`)
@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PrivacyHelper: cb4e32d831127ece60eae2e5055be368aa76290d
+  PrivacyHelper: 0feb2f0e77dab493ce446961fd50264ad5256f27
 
 PODFILE CHECKSUM: d5c35ed37f8c2e2ec61c4758d4a1c764eee84d4a
 
